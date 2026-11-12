@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background-color: #E8ECED;
+            color: #E8ECED;
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+        }
+        div.box {
+            width: 50%;
+            aspect-ratio: 3/2;
+            background-image: url(images/christus.webp);
+            background-repeat: no-repeat;
+            background-position: center 20%;
+            background-size: cover;
+            border: 5px solid black;
+            border-radius: 15px;
+            display: grid;
+            justify-content: center;
+        }
+        h1 {
+            line-height: 20px;
+            margin-top: 20px;
+            justify-self: center;
+        }
+        .top-circles {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            margin: 0 100px;
+        }
+        .test {
+            grid-column: 5;
+        }
+        .fp {
+            align-self: flex-end;
+        }
+        img {
+            width: 70%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border: 5px solid white;
+            border-radius: 100%;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        h2 {
+            justify-self: center;
+            line-height: 10px;
+        }
+        .bottom-circles {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr 1fr 1fr;
+            margin: 0 100px;
+            gap: 20px 0px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .oaks {
+            width: 80%;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>First Presidency</h1>
+        <div class="top-circles">
+            <img class="fp" src="images/eyring.webp" alt="">
+            <img class="oaks" src="images/oaks.webp" alt="">
+            <img class="fp" src="images/christofferson.webp" alt="">
+            <p class="test"></p>
+        </div>
+        <h2>Quorum of the Twelve Apostles</h2>
+        <div class="bottom-circles">
+            <img class="uchtdorf" src="images/uchtdorf.webp" alt="">
+            <img class="bednar" src="images/bednar.webp" alt="">
+            <img class="cook" src="images/cook.webp" alt="">
+            <img class="anderson" src="images/anderson.webp" alt="">
+            <img class="rasband" src="images/rasband.webp" alt="">
+            <img class="stevenson" src="images/stevenson.webp" alt="">
+            <img class="renlund" src="images/renlund.webp" alt="">
+            <img class="gong" src="images/gong.webp" alt="">
+            <img class="soares" src="images/soares.webp" alt="">
+            <img class="kearon" src="images/kearon.webp" alt="">
+            <img class="causse" src="images/causse.webp" alt="">
+            <img class="gilbert" src="images/gilbert.webp" alt="">
+        </div>
+    </div>
+</body>
+</html>

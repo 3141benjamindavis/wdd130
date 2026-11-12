@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    main {
+        margin: 20px 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        .top-bar {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            .top-left {
+                display: flex;
+                align-items: center;
+                .profile-pic {
+                    width: 50px;
+                    border-radius: 100%;
+                    aspect-ratio: 1;
+                    margin: 20px;
+                    object-fit: cover;
+                }
+            }
+            .top-right {
+                display: flex;
+                align-items: center;
+                .timing {
+                    font-size: 15px;
+                }
+            }
+            .top-item {
+                margin: auto 0px;
+            }
+            .ellipsis {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+        .landscape {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
+        .bottom-bar {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            .bottom-left {
+                display: flex;
+                align-items: center;
+                .comments {
+                    display: flex;
+                    align-items: center;
+                    gap: 3px;
+                }
+            }
+           .bottom-right {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+           } 
+        }
+    }
+}
+.bottom-item {
+    margin: 0 20px;
+}
